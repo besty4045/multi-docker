@@ -26,9 +26,9 @@ after_success:
 deploy:
   provider: elasticbeanstalk
   region: 'eu-west-2'
-  app: 'Mpptoolstest'
+  app: 'mpptools-test'
   env: 'Mpptoolstest-env'
-  bucket_name: 'elasticbeanstalk-eu-west-2-108953339391'
+  bucket: 'elasticbeanstalk-eu-west-2-108953339391'
   # bucket_path: 'docker-multi'
   on:
     branch: master
